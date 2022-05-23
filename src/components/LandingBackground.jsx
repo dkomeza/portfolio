@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/landingbackground.scss'
 
 function LandingBackground() {
     var w = window.innerWidth

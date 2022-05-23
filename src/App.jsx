@@ -4,6 +4,8 @@ import Landing from './components/Landing'
 import Aboutme from './components/Aboutme'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import './scss/main.scss'
+
 function App() {
   return (
     <div className="App">

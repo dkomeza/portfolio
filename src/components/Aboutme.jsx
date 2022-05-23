@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import '../css/about-me.scss'
 import { FaStar } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 

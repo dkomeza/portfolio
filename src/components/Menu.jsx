@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { useNavigate, useLocation, Link } from 'react-router-dom'
 
-import '../css/menu.scss'
 import logo from '../assets/home/logo.svg'
 
 function Menu() {

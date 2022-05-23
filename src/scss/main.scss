@@ -20,3 +20,7 @@ body{
 .App{
     min-height: 100vh;
 }
+
+@import "./pages/menu";
+@import "./pages/landing";
+@import "./pages/about-me";
