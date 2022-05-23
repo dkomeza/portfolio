@@ -1,0 +1,48 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/home/hero.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-text{
+        margin-top: -6vw;
+        background-color: rgba(19, 18, 24, 0.6);
+    
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center;
+        padding: 4vw;
+        border: 0.4vw solid black;
+        border-radius: 1.5vw;
+        .hero-caption{
+            column-gap: 0.7vw;
+            display: flex;
+            h1{
+                font-weight: 400;
+                margin-bottom: 2vw;
+                font-size: 4.5vw;
+            }
+            h2{
+                font-weight: 400;
+                font-size: 2.5vw;
+            }
+        }
+    }
+}
+
+.hero-accent{
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: #B459C5;
+    filter: drop-shadow(0vw 0.1vw 0.2vw rgba(166, 65, 184, 0.6));
+    -webkit-filter: drop-shadow(0vw 0.1vw 0.2vw rgba(166, 65, 184, 0.6));
+    -moz-filter: drop-shadow(0vw 0.1vw 0.2vw rgba(166, 65, 184, 0.6));
+}
+
+.purple-accent{
+    color: #B459C5;
+}
