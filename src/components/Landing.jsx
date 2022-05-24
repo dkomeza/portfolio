@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import LandingBackground from './LandingBackground'
 
 function Landing() {
   return (
